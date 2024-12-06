@@ -8,6 +8,10 @@ library(readxl)
 library(janitor)
 library(usethis)
 
+################################################################################
+### CONEXÃO COM GITHUB
+################################################################################
+
 usethis::create_github_token()
 usethis::edit_r_environ()
 usethis::git_sitrep()
